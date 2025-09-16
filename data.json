@@ -43,40 +43,16 @@
   },
   "playerStats": [
     {
-      "name": "Auston Matthews",
-      "team": "Toronto Maple Leafs",
-      "gp": 82,
-      "g": 60,
-      "a": 40,
-      "pts": 100,
-      "hits": 90,
-      "sog": 300,
-      "pen": 12,
-      "pd": 25
-    },
-    {
-      "name": "Mitch Marner",
-      "team": "Toronto Maple Leafs",
-      "gp": 80,
-      "g": 30,
-      "a": 65,
-      "pts": 95,
-      "hits": 45,
-      "sog": 220,
-      "pen": 8,
-      "pd": 18
-    },
-    {
-      "name": "Cole Caufield",
-      "team": "Montreal Canadiens",
-      "gp": 78,
-      "g": 35,
-      "a": 25,
-      "pts": 60,
-      "hits": 55,
-      "sog": 250,
-      "pen": 20,
-      "pd": -5
+      "name": "Template",
+      "team": "Template",
+      "gp": 0,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "hits": 0,
+      "sog": 0,
+      "pen": 0,
+      "pd": 0
     }
   ]
 }
