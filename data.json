@@ -15,8 +15,11 @@
       { "name": "Slonk", "position": "Sk" }
     ],
     "Anaheim Smudge": [
-      { "name": "I_B", "position": "NPO" },
-      { "name": "JellyZForgotten", "position": "Sk" }
+      "color": "#F47A38",
+      "players": [
+          { "name": "I_B", "position": "NPO" },
+          { "name": "JellyZForgotten", "position": "Sk" }
+      ]
     ],
     "Utica Comets": [
       { "name": "Robin", "position": "PG" },
