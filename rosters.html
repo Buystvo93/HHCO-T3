@@ -20,39 +20,6 @@
   <main id="roster-container"></main>
 
   <main id="roster-container"></main>
-<script>
-  fetch('data.json')
-    .then(res => res.json())
-    .then(data => {
-      const rosterContainer = document.getElementById("roster-container");
-
-      Object.keys(data.rosters).forEach(teamName => {
-        const teamSection = document.createElement("section");
-
-        const heading = document.createElement("h2");
-        heading.textContent = teamName;
-        teamSection.appendChild(heading);
-
-        const list = document.createElement("ul");
-
-        data.rosters[teamName].forEach(player => {
-          const li = document.createElement("li");
-          const link = document.createElement("a");
-
-          link.textContent = `${player.name} – ${player.position}`;
-          link.href = `player.html?name=${encodeURIComponent(player.name)}`;
-          link.className = 'player-link';
-
-          li.appendChild(link);
-          list.appendChild(li);
-        });
-
-        teamSection.appendChild(list);
-        rosterContainer.appendChild(teamSection);
-      });
-    })
-    .catch(err => console.error(err));
-</script>
 
 </body>
 </html>
