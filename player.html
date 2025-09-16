@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Player Profile</title>
+</head>
+<body>
+  <div id="player-container"></div>
+
+  <script src="player_gen.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const playerName = params.get('name'); // read the player name from the URL
+
+    const container = document.getElementById("player-container");
+
+    let foundPlayer = null;
+    Object.keys(data.rosters).forEach(team => {
+      data.rosters[team].forEach(player => {
+        if(player.name === playerName){
+          foundPlayer = { ...player, team };
+        }
+      });
+    });
+
+    if(foundPlayer){
+      container.innerHTML = `
+        <h1>${foundPlayer.name}</h1>
+        <p><strong>Team:</strong> ${foundPlayer.team}</p>
+        <p><strong>Position:</strong> ${foundPlayer.position}</p>
+        <a href="roster.html">Back to roster</a>
+      `;
+    } else {
+      container.innerHTML = `
+        <p>Player not found</p>
+        <a href="roster.html">Back to roster</a>
+      `;
+    }
+  </script>
+</body>
+</html>
