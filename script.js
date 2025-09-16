@@ -46,7 +46,7 @@ async function loadData() {
           teamSection.appendChild(list);
           rosterContainer.appendChild(teamSection);
         });
-  });
+
 
   // Player stats page
   const statsTable = document.getElementById("stats-table");
