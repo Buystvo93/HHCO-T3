@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Rosters</title>
   <link rel="stylesheet" href="style.css">
+  <script src="player_gen.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -18,5 +19,35 @@
   </header>
 
   <main id="roster-container"></main>
+
+  <script>
+    // Generate roster dynamically
+    const rosterContainer = document.getElementById("roster-container");
+
+    Object.keys(data.rosters).forEach(teamName => {
+      const teamSection = document.createElement("section");
+
+      const heading = document.createElement("h2");
+      heading.textContent = teamName;
+      teamSection.appendChild(heading);
+
+      const list = document.createElement("ul");
+
+      data.rosters[teamName].forEach(player => {
+        const li = document.createElement("li");
+        const link = document.createElement("a");
+
+        link.textContent = `${player.name} – ${player.position}`;
+        link.href = `player.html?name=${encodeURIComponent(player.name)}`; // dynamic player page
+        link.className = 'player-link';
+
+        li.appendChild(link);
+        list.appendChild(li);
+      });
+
+      teamSection.appendChild(list);
+      rosterContainer.appendChild(teamSection);
+    });
+  </script>
 </body>
 </html>
