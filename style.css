@@ -57,3 +57,61 @@ footer {
   padding: 10px;
   margin-top: 20px;
 }
+/* ==========================
+   ROSTERS PAGE STYLING
+   ========================== */
+#roster-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+#roster-container section {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 15px 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#roster-container section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+#roster-container h2 {
+  background: #002654;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+#roster-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#roster-container li {
+  padding: 8px 10px;
+  margin: 5px 0;
+  background: #f4f4f9;
+  border-radius: 6px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#roster-container li:nth-child(odd) {
+  background: #e9eef5;
+}
+
+#roster-container li:hover {
+  background: #dce7f5;
+}
+
