@@ -9,9 +9,13 @@ async function loadData() {
       const row = document.createElement("tr");
       row.innerHTML = `
         <td>${team.team}</td>
+        <td>${team.gp}</td>
         <td>${team.wins}</td>
         <td>${team.losses}</td>
+        <td>${team.otl}</td>
         <td>${team.points}</td>
+        <td>${team.gf}</td>
+        <td>${team.ga}</td>
       `;
       standingsTable.appendChild(row);
     });
