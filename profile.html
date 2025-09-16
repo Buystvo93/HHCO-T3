@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Player Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="profile.js" defer></script>
+</head>
+<body>
+  <main class="profile-box">
+    <h1>Roblox Player Profile</h1>
+    <form id="profile-form">
+      <input type="text" id="userid" placeholder="Enter Roblox UserId" required>
+      <button type="submit">Load Profile</button>
+    </form>
+    
+    <div id="profile-result" class="profile-result hidden">
+      <img id="avatar" alt="Player Avatar">
+      <h2 id="username"></h2>
+    </div>
+  </main>
+</body>
+</html>
