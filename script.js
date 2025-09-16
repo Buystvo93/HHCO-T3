@@ -32,7 +32,7 @@ async function loadData() {
       // Team header
       const heading = document.createElement("h2");
       heading.textContent = teamName;
-      heading.style.backgroundColor = teamData.color || "#002654"; // fallback if missing
+      heading.style.backgroundColor = "#" + teamData.color;
       teamSection.appendChild(heading);
 
       // Players list
