@@ -1,7 +1,7 @@
 {
   "standings": [
-    { "team": "Toronto Maple Leafs", "wins": 45, "losses": 25, "points": 95 },
-    { "team": "Montreal Canadiens", "wins": 40, "losses": 30, "points": 85 }
+    { "team": "Seattle Thunder", "gp": 0 ,"wins": 0, "losses": 0, "otl": 0,"points": 0, "gf": 0, "ga": 0 },
+    { "team": "Anaheim Smudge", "gp": 0, "wins": 0, "losses": 0, "otl": 0,"points": 0, "gf": 0, "ga": 0 }
   ],
   "rosters": {
     "Toronto Maple Leafs": [
