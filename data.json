@@ -52,6 +52,30 @@
       "sog": 0,
       "pen": 0,
       "pd": 0
+    },
+    {
+      "name": "Chris_Dead",
+      "team": "Hungry Dinos",
+      "gp": 0,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "hits": 0,
+      "sog": 0,
+      "pen": 0,
+      "pd": 0
+    },
+    {
+      "name": "Syndaiko",
+      "team": "Minnesota Wild",
+      "gp": 0,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "hits": 0,
+      "sog": 0,
+      "pen": 0,
+      "pd": 0
     }
   ]
 }
