@@ -1,7 +1,13 @@
 {
   "standings": [
     { "team": "Seattle Thunder", "gp": 0 ,"wins": 0, "losses": 0, "otl": 0,"points": 0, "gf": 0, "ga": 0 },
-    { "team": "Anaheim Smudge", "gp": 0, "wins": 0, "losses": 0, "otl": 0,"points": 0, "gf": 0, "ga": 0 }
+    { "team": "Anaheim Smudge", "gp": 0, "wins": 0, "losses": 0, "otl": 0,"points": 0, "gf": 0, "ga": 0 },
+    { "team": "Toronto Maple Leafs", "gp": 0, "wins": 0, "losses": 0, "otl": 0,"points": 0, "gf": 0, "ga": 0 },
+    { "team": "Vancouver Canucks", "gp": 0, "wins": 0, "losses": 0, "otl": 0,"points": 0, "gf": 0, "ga": 0 },
+    { "team": "St. Louis Blues", "gp": 0, "wins": 0, "losses": 0, "otl": 0,"points": 0, "gf": 0, "ga": 0 },
+    { "team": "Minnesota Wild", "gp": 0, "wins": 0, "losses": 0, "otl": 0,"points": 0, "gf": 0, "ga": 0 },
+    { "team": "Hungry Dinos", "gp": 0, "wins": 0, "losses": 0, "otl": 0,"points": 0, "gf": 0, "ga": 0 },
+    { "team": "Utica Comets", "gp": 0, "wins": 0, "losses": 0, "otl": 0,"points": 0, "gf": 0, "ga": 0 }
   ],
   "rosters": {
     "Toronto Maple Leafs": [
