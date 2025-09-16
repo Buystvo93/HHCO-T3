@@ -22,28 +22,21 @@ async function loadData() {
   }
 
   // Rosters page
-   const rosterContainer = document.getElementById("roster-container");
-  if (rosterContainer && data.rosters) {
+  const rosterContainer = document.getElementById("roster-container");
+  if (rosterContainer) {
     Object.keys(data.rosters).forEach(teamName => {
-      const teamData = data.rosters[teamName];
-      
       const teamSection = document.createElement("section");
-
-      // Team header
       const heading = document.createElement("h2");
       heading.textContent = teamName;
-      heading.style.backgroundColor = "#" + teamData.color;
       teamSection.appendChild(heading);
 
-      // Players list
       const list = document.createElement("ul");
-      teamData.players.forEach(player => {
+      data.rosters[teamName].forEach(player => {
         const li = document.createElement("li");
         li.textContent = `${player.name} – ${player.position}`;
         list.appendChild(li);
       });
       teamSection.appendChild(list);
-
       rosterContainer.appendChild(teamSection);
     });
   }
