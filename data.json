@@ -18,7 +18,7 @@
       { "name": "I_B", "position": "NPO" },
       { "name": "JellyZForgotten", "position": "Sk" }
     ],
-    "Utica Comets": [
+    "Laval Rocket": [
       { "name": "Robin", "position": "PG" },
       { "name": "Kesk", "position": "Sk" }
     ],
@@ -26,9 +26,8 @@
       { "name": "Cloutless", "position": "Sk" },
       { "name": "OutlinedGlass", "position": "Sk" }
     ],
-    "Vancouver Canucks": [
-      { "name": "Jaiden", "position": "Sk" },
-      { "name": "Camoron3", "position": "PG" }
+    "SaiPa": [
+      { "name": "Zach", "position": "PG" }
     ],
     "St. Louis Blues": [
       { "name": "Mono", "position": "Sk" }
