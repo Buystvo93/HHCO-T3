@@ -22,30 +22,24 @@ async function loadData() {
   }
 
   // Rosters page
-  const rosterContainer = document.getElementById("roster-container");
+ const rosterContainer = document.getElementById("roster-container");
+  if (rosterContainer) {
+    Object.keys(data.rosters).forEach(teamName => {
+      const teamSection = document.createElement("section");
+      const heading = document.createElement("h2");
+      heading.textContent = teamName;
+      teamSection.appendChild(heading);
 
-        Object.keys(data.rosters).forEach(teamName => {
-          const teamSection = document.createElement("section");
-
-          const heading = document.createElement("h2");
-          heading.textContent = teamName;
-          teamSection.appendChild(heading);
-
-          const list = document.createElement("ul");
-
-          data.rosters[teamName].forEach(player => {
-            const li = document.createElement("li");
-            const link = document.createElement("a");
-            link.textContent = `${player.name} – ${player.position}`;
-            link.href = `/players/${player.name.replace(/\s+/g,'')}.html`; // player page URL
-            link.className = 'player';
-            li.appendChild(link);
-            list.appendChild(li);
-          });
-
-          teamSection.appendChild(list);
-          rosterContainer.appendChild(teamSection);
-        });
+      const list = document.createElement("ul");
+      data.rosters[teamName].forEach(player => {
+        const li = document.createElement("li");
+        li.textContent = `${player.name} – ${player.position}`;
+        list.appendChild(li);
+      });
+      teamSection.appendChild(list);
+      rosterContainer.appendChild(teamSection);
+    });
+  }
 
 
   // Player stats page
