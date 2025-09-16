@@ -11,12 +11,34 @@
   ],
   "rosters": {
     "Toronto Maple Leafs": [
-      { "name": "Auston Matthews", "position": "C" },
-      { "name": "Mitch Marner", "position": "RW" }
+      { "name": "Vic", "position": "Sk" },
+      { "name": "Slonk", "position": "Sk" }
     ],
-    "Montreal Canadiens": [
-      { "name": "Cole Caufield", "position": "RW" },
-      { "name": "Nick Suzuki", "position": "C" }
+    "Anaheim Smudge": [
+      { "name": "I_B", "position": "NPO" },
+      { "name": "JellyZForgotten", "position": "Sk" }
+    ],
+    "Utica Comets": [
+      { "name": "Robin", "position": "PG" },
+      { "name": "Kesk", "position": "Sk" }
+    ],
+    "Seattle Thunder": [
+      { "name": "Cloutless", "position": "Sk" },
+      { "name": "OutlinedGlass", "position": "Sk" }
+    ],
+    "Vancouver Canucks": [
+      { "name": "Jaiden", "position": "Sk" },
+      { "name": "Camoron3", "position": "PG" }
+    ],
+    "St. Louis Blues": [
+      { "name": "Mono", "position": "Sk" }
+    ],
+    "Minnesota Wild": [
+      { "name": "Syndaiko", "position": "Sk" }
+    ],
+    "Hungry Dinos": [
+      { "name": "Chris_Dead", "position": "Sk" },
+      { "name": "Madfox6", "position": "Sk" }
     ]
   },
   "playerStats": [
