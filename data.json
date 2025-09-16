@@ -1,0 +1,54 @@
+{
+  "standings": [
+    { "team": "Toronto Maple Leafs", "wins": 45, "losses": 25, "points": 95 },
+    { "team": "Montreal Canadiens", "wins": 40, "losses": 30, "points": 85 }
+  ],
+  "rosters": {
+    "Toronto Maple Leafs": [
+      { "name": "Auston Matthews", "position": "C" },
+      { "name": "Mitch Marner", "position": "RW" }
+    ],
+    "Montreal Canadiens": [
+      { "name": "Cole Caufield", "position": "RW" },
+      { "name": "Nick Suzuki", "position": "C" }
+    ]
+  },
+  "playerStats": [
+    {
+      "name": "Auston Matthews",
+      "team": "Toronto Maple Leafs",
+      "gp": 82,
+      "g": 60,
+      "a": 40,
+      "pts": 100,
+      "hits": 90,
+      "sog": 300,
+      "pen": 12,
+      "pd": 25
+    },
+    {
+      "name": "Mitch Marner",
+      "team": "Toronto Maple Leafs",
+      "gp": 80,
+      "g": 30,
+      "a": 65,
+      "pts": 95,
+      "hits": 45,
+      "sog": 220,
+      "pen": 8,
+      "pd": 18
+    },
+    {
+      "name": "Cole Caufield",
+      "team": "Montreal Canadiens",
+      "gp": 78,
+      "g": 35,
+      "a": 25,
+      "pts": 60,
+      "hits": 55,
+      "sog": 250,
+      "pen": 20,
+      "pd": -5
+    }
+  ]
+}
