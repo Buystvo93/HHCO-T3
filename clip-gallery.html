@@ -6,9 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <style>
     div.gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
     div.gallery-item {
