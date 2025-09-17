@@ -5,6 +5,9 @@ async function loadData() {
   // Standings page
   const standingsTable = document.getElementById("standings-table");
   if (standingsTable) {
+    // 🔹 Sort by points (highest first)
+    data.standings.sort((a, b) => b.points - a.points);
+
     data.standings.forEach(team => {
       const row = document.createElement("tr");
       row.innerHTML = `
@@ -22,7 +25,7 @@ async function loadData() {
   }
 
   // Rosters page
- const rosterContainer = document.getElementById("roster-container");
+  const rosterContainer = document.getElementById("roster-container");
   if (rosterContainer) {
     Object.keys(data.rosters).forEach(teamName => {
       const teamSection = document.createElement("section");
@@ -41,10 +44,12 @@ async function loadData() {
     });
   }
 
-
   // Player stats page
   const statsTable = document.getElementById("stats-table");
   if (statsTable) {
+    // 🔹 Sort by points (highest first)
+    data.playerStats.sort((a, b) => b.pts - a.pts);
+
     data.playerStats.forEach(player => {
       const row = document.createElement("tr");
       row.innerHTML = `
