@@ -12,7 +12,8 @@
   "rosters": {
     "Toronto Maple Leafs": [
       { "name": "Vic", "position": "Sk" },
-      { "name": "Slonk", "position": "Sk" }
+      { "name": "Slonk", "position": "Sk" },
+      { "name": "Papalevskiy", "position": "Sk" }
     ],
     "Anaheim Smudge": [
       { "name": "I_B", "position": "NPO" },
@@ -33,14 +34,16 @@
     ],
     "St. Louis Blues": [
       { "name": "Mono", "position": "Sk" },
-      { "name": "Mazrider", "position": "Sk" }
+      { "name": "Mazrider", "position": "Sk" },
+      { "name": "Etanoprod", "position": "Sk" }
     ],
     "Minnesota Wild": [
       { "name": "Syndaiko", "position": "Sk" }
     ],
     "Hungry Dinos": [
       { "name": "Chris_Dead", "position": "Sk" },
-      { "name": "Madfox6", "position": "Sk" }
+      { "name": "Madfox6", "position": "Sk" },
+      { "name": "AidenTheBaconKing", "position": "Sk" }
     ]
   },
   "playerStats": [
