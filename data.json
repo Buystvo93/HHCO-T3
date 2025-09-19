@@ -13,42 +13,60 @@
     "Toronto Maple Leafs": [
       { "name": "Vic", "position": "Sk" },
       { "name": "Slonk", "position": "Sk" },
-      { "name": "Papalevskiy", "position": "Sk" }
+      { "name": "Papalevskiy", "position": "Sk" },
+      { "name": "Justin", "position": "Sk" },
+      { "name": "PatrickRoy_33", "position": "PG" }
     ],
     "Anaheim Smudge": [
       { "name": "I_B", "position": "NPO" },
       { "name": "JellyZForgotten", "position": "Sk" },
-      { "name": "Jaiden", "position": "Sk" }
+      { "name": "Jaiden", "position": "Sk" },
+      { "name": "Doubleblackdime", "position": "Sk" },
+      { "name": "Ashtron", "position": "Sk" },
+      { "name": "BrrdZForgotten", "position": "PG" }
     ],
     "Laval Rocket": [
       { "name": "Robin", "position": "PG" },
       { "name": "Mxliknus", "position": "Sk" },
       { "name": "SpIashV1", "position": "Sk" },
       { "name": "Floridianpalmtree", "position": "Sk" },
-      { "name": "TinyDinio", "position": "Sk" }
+      { "name": "TinyDinio", "position": "Sk" },
+      { "name": "WackyDJs", "position": "Sk" },
+      { "name": "Popcat", "position": "Sk" }
     ],
     "Seattle Thunder": [
       { "name": "Cloutless", "position": "Sk" },
       { "name": "OutlinedGlass", "position": "Sk" },
       { "name": "erp01", "position": "Sk" },
-      { "name": "Gabou", "position": "Sk" }
+      { "name": "Gabou", "position": "Sk" },
+      { "name": "Camoron3", "position": "PG" },
+      { "name": "Extraporkplease", "position": "Sk" }
     ],
     "SaiPa": [
       { "name": "Zach", "position": "PG" },
-      { "name": "FrastyTheSnowman", "position": "Sk" }
+      { "name": "FrastyTheSnowman", "position": "Sk" },
+      { "name": "Kyoto", "position": "Sk" },
+      { "name": "Greg", "position": "PG" }
     ],
     "St. Louis Blues": [
       { "name": "Mono", "position": "Sk" },
       { "name": "Mazrider", "position": "Sk" },
-      { "name": "Etanoprod", "position": "Sk" }
+      { "name": "Etanoprod", "position": "Sk" },
+      { "name": "Keskridge", "position": "Sk" },
+      { "name": "Dankz", "position": "Sk" }
     ],
     "Minnesota Wild": [
-      { "name": "Syndaiko", "position": "Sk" }
+      { "name": "Syndaiko", "position": "Sk" },
+      { "name": "Brobskie", "position": "Sk" },
+      { "name": "hockeybob8", "position": "Sk" },
+      { "name": "Awesomesaucecrap", "position": "Sk" }
     ],
     "Hungry Dinos": [
-      { "name": "Chris_Dead", "position": "Sk" },
+      { "name": "ichris_deadi", "position": "Sk" },
       { "name": "Madfox6", "position": "Sk" },
-      { "name": "AidenTheBaconKing", "position": "Sk" }
+      { "name": "AidenTheBaconKing", "position": "Sk" },
+      { "name": "loosepocket285", "position": "PG" },
+      { "name": "Spyder", "position": "PG" }
     ]
   },
   "playerStats": [
