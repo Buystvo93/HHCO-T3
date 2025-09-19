@@ -15,7 +15,12 @@
       { "name": "Slonk", "position": "Sk" },
       { "name": "Papalevskiy", "position": "Sk" },
       { "name": "Justin", "position": "Sk" },
-      { "name": "PatrickRoy_33", "position": "PG" }
+      { "name": "PatrickRoy_33", "position": "PG" },
+      { "name": "Nico_V29", "position": "Sk" },
+      { "name": "Tyrese", "position": "Sk" },
+      { "name": "Louisjay10r", "position": "Sk" },
+      { "name": "Joran", "position": "Sk" },
+      { "name": "CiwoXD", "position": "Sk" }
     ],
     "Anaheim Smudge": [
       { "name": "I_B", "position": "NPO" },
@@ -23,7 +28,11 @@
       { "name": "Jaiden", "position": "Sk" },
       { "name": "Doubleblackdime", "position": "Sk" },
       { "name": "Ashtron", "position": "Sk" },
-      { "name": "BrrdZForgotten", "position": "PG" }
+      { "name": "BrrdZForgotten", "position": "PG" },
+      { "name": "Edelman11", "position": "Sk" },
+      { "name": "MinyGlato", "position": "Sk" },
+      { "name": "Brxdy16", "position": "Sk" },
+      { "name": "TheMightyBacon_9", "position": "Sk" }
     ],
     "Laval Rocket": [
       { "name": "Robin", "position": "PG" },
@@ -32,7 +41,12 @@
       { "name": "Floridianpalmtree", "position": "Sk" },
       { "name": "TinyDinio", "position": "Sk" },
       { "name": "WackyDJs", "position": "Sk" },
-      { "name": "Popcat", "position": "Sk" }
+      { "name": "Popcat", "position": "Sk" },
+      { "name": "BostonWhaler", "position": "Sk" },
+      { "name": "Xelasee", "position": "Sk" },
+      { "name": "sealsippa", "position": "Sk" },
+      { "name": "Counterbloximokat12", "position": "Sk" },
+      { "name": "grt445", "position": "Sk" }
     ],
     "Seattle Thunder": [
       { "name": "Cloutless", "position": "Sk" },
@@ -40,33 +54,58 @@
       { "name": "erp01", "position": "Sk" },
       { "name": "Gabou", "position": "Sk" },
       { "name": "Camoron3", "position": "PG" },
-      { "name": "Extraporkplease", "position": "Sk" }
+      { "name": "Extraporkplease", "position": "Sk" },
+      { "name": "K4nq", "position": "Sk" },
+      { "name": "Dofas", "position": "Sk" },
+      { "name": "Fluffychatnoir", "position": "Sk" },
+      { "name": "Pastorrbx", "position": "Sk" },
+      { "name": "KentaroHaajiro", "position": "PG" }
     ],
     "SaiPa": [
       { "name": "Zach", "position": "PG" },
       { "name": "FrastyTheSnowman", "position": "Sk" },
       { "name": "Kyoto", "position": "Sk" },
-      { "name": "Greg", "position": "PG" }
+      { "name": "Greg", "position": "PG" },
+      { "name": "Derek", "position": "Sk" },
+      { "name": "Pythonicks", "position": "PG" },
+      { "name": "Imp937alt", "position": "Sk" },
+      { "name": "xXepicspidermanXx", "position": "Sk" },
+      { "name": "EricKnightX", "position": "Sk" }
     ],
     "St. Louis Blues": [
       { "name": "Mono", "position": "Sk" },
       { "name": "Mazrider", "position": "Sk" },
       { "name": "Etanoprod", "position": "Sk" },
       { "name": "Keskridge", "position": "Sk" },
-      { "name": "Dankz", "position": "Sk" }
+      { "name": "Dankz", "position": "Sk" },
+      { "name": "LittleScarlet", "position": "Sk" },
+      { "name": "Chara", "position": "Sk" },
+      { "name": "Star", "position": "PG" },
+      { "name": "ORGmasterAlt", "position": "PG" },
+      { "name": "EpicMegaArceus", "position": "Sk" }
     ],
     "Minnesota Wild": [
       { "name": "Syndaiko", "position": "Sk" },
       { "name": "Brobskie", "position": "Sk" },
       { "name": "hockeybob8", "position": "Sk" },
-      { "name": "Awesomesaucecrap", "position": "Sk" }
+      { "name": "Awesomesaucecrap", "position": "Sk" },
+      { "name": "Mistakencave", "position": "Sk" },
+      { "name": "FloorItWild", "position": "Sk" },
+      { "name": "ComplexDreamer", "position": "Sk" },
+      { "name": "Mikalol345", "position": "Sk" },
+      { "name": "Callmewilly9", "position": "PG" }
     ],
     "Hungry Dinos": [
       { "name": "ichris_deadi", "position": "Sk" },
       { "name": "Madfox6", "position": "Sk" },
       { "name": "AidenTheBaconKing", "position": "Sk" },
       { "name": "loosepocket285", "position": "PG" },
-      { "name": "Spyder", "position": "PG" }
+      { "name": "Spyder", "position": "PG" },
+      { "name": "Lightveon", "position": "Sk" },
+      { "name": "Bombrobsky", "position": "Sk" },
+      { "name": "okcoggy", "position": "Sk" },
+      { "name": "Azotik", "position": "Sk" },
+      { "name": "QuantumRBLX", "position": "PG" }
     ]
   },
   "playerStats": [
