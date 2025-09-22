@@ -45,6 +45,18 @@
       "sog": 0,
       "pen": 0,
       "pd": 0
+    },
+    {
+      "name": "Jaiden",
+      "team": "Anaheim Smudge",
+      "gp": 1,
+      "g": 1,
+      "a": 1,
+      "pts": 2,
+      "hits": 48,
+      "sog": 4,
+      "pen": 0,
+      "pd": 0
     }
   ]
 }
