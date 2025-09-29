@@ -3,7 +3,7 @@
     { "team": "Seattle Thunder", "gp": 1 ,"wins": 1, "losses": 0, "otl": 0,"points": 2, "gf": 2, "ga": 1 },
     { "team": "Anaheim Smudge", "gp": 1, "wins": 0, "losses": 1, "otl": 0,"points": 0, "gf": 4, "ga": 5 },
     { "team": "Toronto Maple Leafs", "gp": 1, "wins": 0, "losses": 1, "otl": 0,"points": 0, "gf": 1, "ga": 10 },
-    { "team": "SaiPa", "gp": 1, "wins": 1, "losses": 0, "otl": 0,"points": 2, "gf": 10, "ga": 1 },
+    { "team": "SaiPa", "gp": 6, "wins": 5, "losses": 0, "otl": 1,"points": 11, "gf": 30, "ga": 12 },
     { "team": "St. Louis Blues", "gp": 1, "wins": 0, "losses": 1, "otl": 0,"points": 0, "gf": 1, "ga": 7 },
     { "team": "Minnesota Wild", "gp": 1, "wins": 0, "losses": 0, "otl": 1,"points": 0, "gf": 1, "ga": 2 },
     { "team": "Hungry Dinos", "gp": 1, "wins": 1, "losses": 0, "otl": 0,"points": 2, "gf": 7, "ga": 1 },
